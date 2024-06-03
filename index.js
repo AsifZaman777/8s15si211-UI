@@ -56,9 +56,11 @@ const toggolebutton1 = new Pic("images/button.png").center(powerBtn);
 
 powerBtn.on("click",()=>{
      fan.animate({
-        props:{rotation:360},
+        props:{rotation:-360},
         loop:true,
-        time:.2,
+        time:.9,
+        ease:"linear",
+        
      })
      brightPicture.alp(1);
 
