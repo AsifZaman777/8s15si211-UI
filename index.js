@@ -10,7 +10,7 @@ frame.on("ready",()=>{
     const wheelStand = new Pic("images/wheelStand.png").pos(500,650);
     const brightPicture = new Pic("images/bright.png").pos(1500,845).alp(0);
     
-    const fan = new Pic("images/fan.png").centerReg().pos(1645,550);
+    const fan = new Pic("images/fan.png").centerReg().pos(1638,550);
 
     //place slider...
     //slider for force control..
